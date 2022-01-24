@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Daniel Azocar</title>
         <meta name="description" content="Coding for fun and money C:" />
@@ -24,9 +24,9 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.imgSide}>
-
+          <p>hola</p>
         </div>
       </section>
-    </div>
+    </>
   )
 }

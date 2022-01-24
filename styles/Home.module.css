@@ -1,6 +1,7 @@
 .homeContainer {
   width: 100vw;
   height: 100vh;
+  display: flex;
 }
 
 .infoSide {
@@ -9,10 +10,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 30px;
 }
 
 .infoContainer {
-  padding-left: 250px;
+  padding-left: 210px;
 }
 
 .nameTitle {
@@ -46,4 +48,9 @@
 
 .imgSide {
   width: 40%;
+  background: url("https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+}
+
+.comingSoomPhoto {
+  width: 100%;
 }
