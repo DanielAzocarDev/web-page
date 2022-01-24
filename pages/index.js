@@ -24,7 +24,6 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.imgSide}>
-          <p>hola</p>
         </div>
       </section>
     </>
